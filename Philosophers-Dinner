@@ -34,7 +34,7 @@ public class Filosofo extends Thread {
                     garfoEsquerda.unlock();
                     garfoDireita.unlock();
                 } else {
-                    System.out.println("Filosofo " + id + " não conseguiu pegar ambos os garfos.");
+                    System.out.println("Filosofo " + id + " nao conseguiu pegar ambos os garfos.");
                 }
                 
                 long tempoFimRefeicao = System.currentTimeMillis();
@@ -59,7 +59,7 @@ public class Filosofo extends Thread {
         }
 
         try {
-            Thread.sleep(30000); // Tempo limite de 30 segundos
+            Thread.sleep(5000); // Tempo limite do jantar
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -79,6 +79,9 @@ public class Filosofo extends Thread {
             totalComida += contadorComida[i];
         }
 
-        System.out.println("Total de comida consumida: " + totalComida + " pedaços.");
+        System.out.println("Tempo de alimentacao de cada filosofo e quantidade de vezes que comeu:");                                                  
+        for (int i = 0; i < n; i++) {                                                                                                                  
+            System.out.println("Filosofo " + i + ": Tempo de alimentacao - " + tempoDeAlimentacao[i] + " ms, Comeu - " + contadorComida[i] + " vezes");
     }
+}
 }
