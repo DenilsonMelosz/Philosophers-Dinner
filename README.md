@@ -4,7 +4,7 @@
 
 - Este projeto é uma atividade avaliativa para a matéria Sistemas Operacionais. O objetivo foi implementar e solucionar problemas relacionados ao clássico problema de sincronização conhecido como Jantar dos Filósofos. O código foi desenvolvido em Java e aborda questões como sincronismo, deadlock, e outros problemas relacionados à concorrência.
 
-##🚀 Objetivo:
+## 🚀 Objetivo:
 
 #### Implementar e resolver erros associados ao problema do Jantar dos Filósofos, incluindo:
 - Sincronismo entre threads.
