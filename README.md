@@ -10,7 +10,7 @@
 - Sincronismo entre threads.
 - Prevenção e resolução de deadlock.
 - Gerenciamento eficiente de recursos compartilhados.
-- 
+  
 ## 🛠️ Tecnologias Utilizadas
 
 - Java: Linguagem de programação utilizada para implementar a solução do problema.
